@@ -1,0 +1,525 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Html</title>
+</head>
+<a name="top"></a>
+<body bgcolor="lightblue">
+<font face="franklin gothic">
+<marquee behavior="alternate" scrollamount="10"><h4>This website is created by Dhairya Saraswat &copy</h4></marquee>
+</font>
+<h1><p align="center"><b><i><u>HTML</u></i></b></center></h1>
+<hr align="center" size=15 width=100% color="black">
+<b><i><u><caption><h3>Index</h3></caption></u></i></b>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<th>No.</th>
+<th>Topics</th>
+</tr>
+<tr>
+<td>1</td>
+<td><a href="#html">HTML</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="#tags">Tags</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="#attributes">Attributes</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="#lists">Lists</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="#links">Links</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="#images">Images</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="#marquee">Marquee</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="#tables">Tables</a></td>
+</tr>
+</table>
+<marquee scrollamount="5" behavior="alternate" direction="left"><h3>This website covers basics of HTML course.For more topics click on this link - <a href="D:\Documents/html2.html" target="_blank">HTML-2</h3></a><br></marquee>
+<a name="html"></a>
+<hr align="center" size=15 width=100% color="black">
+<pre>
+<font face="franklin gothic">
+1. HTML stands for Hyper Text Markup Language.
+2. HTML document has two parts-<br>
+  1. Head part- It contains information about the page such as title.
+                          Enclosed by &lt;head&gt; and &lt;/head&gt;
+                          Header information is not available in the browser window. 
+                          It contains the title tag which shows the title of the webpage.
+                          &lt;title&gt;Name&lt;/title&gt;<br>
+   2. Body part- It is where all available text, headlines, graphics are available.
+                          Enclosed by &lt;body&gt; and &lt;/body&gt;
+                          It shows the content available on the page.
+</font>
+</pre>
+<hr align="center" size=15 width=100% color="black">
+<a name="tags"></a>
+<h2>Tags</h2>
+<font face="franklin gothic">
+HTML tags are used to mark-up HTML elements and are surrounded by the two character < and > are called angle brackets.<br>
+<ol type="1">
+<li> Container tags/Paired tags</li>
+<ul type="square">
+    <li>Tags having both opening and closing.</li>
+    <li>Html elements are defined by starting tags.</li>
+</ul>
+<li> Singular tags/Empty tags</li>
+<ul type="square">
+<li>Tags having only opening like break tag.</li>
+<li>Html elements which do not need to be closed are known as void elements.</li>
+</ul>
+</ol>
+</font>
+<hr align="center" size=15 width=100% color="black">
+<a name="attributes"></a>
+<h2>Attributes</h2>
+<font face="franklin gothic">
+Attributes can provide additional information about HTML document.<br>
+Attributes have 2 parts:<br>
+1. Name<br>
+2. Value<br>
+Attribute name="value"<br>
+</font>
+<hr align="center" size=15 width=100% color="black">
+<br>
+<a name="lists"></a>
+<h2>Lists</h2>
+<font face="franklin gothic">
+HTML provides two tags to create lists.
+<ol type="1">
+<li>&lt;ol&gt;-Ordered List- For numbers </li>
+<ul type="disc">
+<li>An ordered list is a list of items start with numbers,</li>
+<li>An ordered list starts with &lt;ol&gt; tag.</li>
+<li>Each list item starts with &lt;li&gt; tag (list item)</li>
+<li>It has type attribute.</li>
+<li> &lt;ol type="A/a/I/i/1&gt;</li><br>
+</ul>
+<li>&lt;ul&gt;-Unordered List- For bullets </li>
+<ul type="square">
+<li>An unordered list is list of items marked with bullets,squares.</li>
+<li>An unordered list starts with &lt;ul&gt; tag.</li>
+<li>Each list item starts with &lt;li&gt; tag.</li>
+<li>Attribute is type.</li>
+<li>&lt;ul type="disc/circle/square"&gt;</li>
+</ul>
+</ol>
+<dl>
+<font face="franklin gothic">
+<dt>Defintion List&lt;dl&gt;
+<dd>This list is designed to allow for two levels of list item which are empty tag.<br>
+&lt;dt&gt;-Definition term - This tag is use to fit on a single line of your webpage.<br>
+&lt;dd&gt;-Definition -This tag will accept a full paragraph continuosly beneath &lt;dt&gt; term.
+</b>
+</font>
+</dl>
+<hr align="center" size=15 width=100% color="black">
+<a name="links"></a>
+<h2>Links</h2>
+<font face="franklin gothic">
+Html provides ability to web to link from one document to another specific site.</br>
+Html uses &lt;a&gt; anchor tag to create link to another document or web page.<br>
+There are two types of links- 
+<dl>
+<dt>Absolute Links
+<dd>An absolute link tells exactly where a browser should go by following all the necessary paths.<br>
+They are used when we link from one web site to another.<br>
+If the html document which we want to link is somewhere else on the internet then absolute url is used.
+<br>
+<br>
+<dt>Relative Links
+<dd>They are also known as local links.<br>
+They just tell the shortcuts for the file.
+</dl>
+Its attributes are-
+<ol>
+<li>Href attribute</li>
+The href attribute is used to tell the address of the document or page linking to it.<br>
+&lt;a href="url"Text to be displayed &lt;/a&gt;.<br>
+By clicking on below link you can download sample html notes.<br>
+<a href="C:\Users\DHAIRYA\Documents\html.docx"> Html </a><br>
+<br>
+<li>Target attribute</li>
+It defines where the linked document will opened.<br>
+<ul>
+<li>target="_blank":Opens in a new blank window,</li>
+<li>target="_self":Opens in current window,</li>
+<li>target="_parent":Opens in current window.</li>
+&lt;a href="url" target="_blank"&gt;Name of file&lt;/a&gt;
+</ul>
+<br>
+<li>Name arttribute</li>
+The name attribute is used to create internal links.<br>
+Internal links transfers control to the same page rather than another page.<br>
+&lt;a href="#top/bottom&gt;<br>
+Such as clicking on this link redirect you to top of this window. <a href="#top"> Go to top</a><br>
+Such as clicking on this link redirect you to bottom of this window. <a href="#last"> Go to bottom</a>
+</ol>
+<hr align="center" size=15 width=100% color="black">
+<a name="images"></a>
+<h2>Images</h2>
+The &lt;img&gt; tag displays a graphic image on your page<br>
+There are three universally supported Web image formats-<br>
+<ol type="i">
+<li>GIF-Graphics Interchanged Format</li>
+<li>JPEG-Joint Photographic Experts Group</li>
+<li>Portable Network Graphics</li>
+</ol>
+Its attributes are-
+<ol>
+<li>Src attribute</li>
+This src(source) is use to specify the name and the location of your image file.<br>
+Src attribute is compulsory for &lt;img&gt; tag.<br>
+ &lt;img src="imagefolder/filename.extension"&gt;<br>
+This is a sample image.<br>
+<br>
+<img src="C:/Users/DHAIRYA/Documents/img.jpg">
+<br>
+<br>
+<li>Alt attribute</li>
+It specify alternative text to appear while the graphics is loading.<br>
+Its value is the image file url.<br>
+ &lt;img src="imagefolder/filename.extension" alt="image name" &gt;<br>
+Image with a name.<br>
+<img src="C:/Users/DHAIRYA/Documents/img.jpg" alt="Creator of this website">
+<br>
+<br>
+<li>Align attribute</li>
+<img src="C:/Users/DHAIRYA/Documents/img.jpg" align="right" height="80">
+It is used to align images relative to text.<br>
+ &lt;img src="imagefolder/filename.extension" alt="image name" align="right/left/center/justify"&gt;<br>
+Image has aligned right.<br>
+<br>
+<li>Border</li>
+It is used to create outline of the image.<br>
+ &lt;img src="imagefolder/filename.extension" border=number&gt;<br>
+Image has border 2.<br>
+<img src="C:/Users/DHAIRYA/Documents/img.jpg" border=2>
+<br>
+<br>
+<li>Height and Width</li>
+Adjust the height and width of the image.<br>
+Height and Width can be in percentage or pixels.<br>
+ &lt;img src="imagefolder/filename.extension" height="------" width="---------"&gt;<br>
+Image having width="200" and height="80".<br>
+<img src="C:/Users/DHAIRYA/Documents/img.jpg" height="80" width="200">
+</ol>
+<hr align="center" size=15 width=100% color="black">
+<a name="marquee"></a>
+<h2>Marquee</h2><br>
+<font color="darkblue">
+<marquee behavior=scroll" direction="left" scrollamount="10">This is a marquee</marquee>
+</font>
+This tag is used to move image or text on browser window.
+Its attribute are-
+<ol>
+<li>Behavior-This attribute defines the way of moving.<br>
+behavior="scroll"<br>
+behavior="alternate"</li>
+<li>Direction-This attribute defines the direction of marquee content.<br>
+direction="left/right/up/down"</li>
+<li>Scroll amount<br>
+It is used to define the speed of moving content of marquee tag.<br>
+Value of this attribute is any integer number.<br>
+As the number value is increased the speed of moving content  of marquee is increased.
+scrollamount="5"
+</ol>
+<font color="darkblue">
+<marquee behavior=scroll" direction="left" scrollamount="10">
+<img src="C:/Users/DHAIRYA/Documents/img.jpg" height="80" width="200">
+This is a marquee image</marquee>
+</font>
+<hr align="center" size=15 width=100% color="black">
+<a name="tables"></a>
+<h2>Tables</h2>
+Collection of rows and columns is known as tables.<br>
+It starts with &lt;table&gt; and it is a container tag.<br>
+It has the following tags-<br>
+<caption align="top">Table Tags</caption>
+<table border="1" Cellspacing="5" cellpadding="5">
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;table&gt;</td>
+<td>Defines a table</td>
+</tr>
+<tr>
+<td>&lt;th&gt;</td>
+<td>Defines a table header</td>
+</tr>
+<tr>
+<td>&lt;tr&gt;</td>
+<td>Defines a table row</td>
+</tr>
+<tr>
+<td>&lt;td&gt;</td>
+<td>Defines a table cell</td>
+</tr>
+<tr>
+<td>&lt;caption&gt;</td>
+<td>Defines a table caption</td>
+</tr>
+<tr>
+<td>&lt;colgroup&gt;</td>
+<td>Defines a group of table columns</td>
+</tr>
+<tr>
+<td>&lt;col&gt;</td>
+<td>Defines the attribute values </td>
+</tr>
+<tr>
+<td>&lt;thead&gt;</td>
+<td>Defines a table header</td>
+</tr>
+<tr>
+<td>&lt;tbody&gt;</td>
+<td>Defines a table body</td>
+</tr>
+<tr>
+<td>&lt;tfoot&gt;</td>
+<td>Defines a table footer</td>
+</tr>
+</table><br> 
+Basic overview of table-<br>
+&lt;table&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;- - - - - - - - - - - - &lt;/td&gt;<br>
+&lt;td&gt;- - - - - - - - - - - - &lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/table&gt;<br>
+<br>
+Its attributes are-
+<ol>
+<li>Align<br>
+The align attribute is used to determine where the table will appear relative to the browser window.<br>
+&lt;table Align=left/right&gt;<br>
+<br>
+</li>
+<li>Cellspacing <br>
+The cellspacing attribute tells the browser how much space to include between individual cells.<br>
+It is the thickness of the lines making the table grid.<br>
+Value is a number in pixels.<br>
+&lt; table Cellspacing="5"&gt;<br>
+<br>
+</li>
+<li>Cellpadding<br>
+The cellpadding attribute tells the browser how much space to give data elements away from the walls of cell.<br>
+It shows the content away from the border for easy viewing.<br>
+&lt; table cellpadding="5"&gt;<br>
+<br>
+</li>
+<li>Border<br>
+To display a border with table, it is used.<br>
+&lt; table border="5"&gt;<br>
+<br>
+</li>
+<li>Width and Height<br>
+The width attribute defines the width of a table.<br>
+The height attribute defines the height of a table.<br>
+&lt; table width="10%/100"&gt;<br>
+&lt; table height="50%/500"&gt;<br>
+<table border="1" height=50 width=100>
+<tr>
+<td>----------</td>
+<td>----------</td>
+</tr>
+</table>
+<br>
+</li>
+<li>Colspan<br>
+Merge two or more columns into a single column.<br>
+&lt;td colspan="3"&gt;<br>
+This is a sample table<br>
+<table border=1>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+After colspan for 3 columns-
+<table border=1>
+<tr>
+<td colspan="3">--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+<li>Rowspan<br>
+Merges two or more rows into a single row.<br>
+&lt;td rowspan="2"&gt;<br>
+This is a sample table<br>
+<table border=1>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+After rowspan for 2 columns-
+<table border=1>
+<tr>
+<td rowspan="2">--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+<li>Bgcolor<br>
+It determines background color of a table.<br>
+&lt;table bgcolor="yellow"&gt;<br>
+<table border=1 bgcolor="yellow">
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+<li>Bordercolor<br>
+It determines border color of a table.<br>
+&lt;table bordercolor="green"&gt;<br>
+<table border=1 bordercolor="green">
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+<br>
+<li>Background<br>
+It is used to insert image in the table.<br>
+&lt;table background="image url"&gt;<br>
+<table>
+<table border=1 background="C:/Users/DHAIRYA/Documents/img.jpg" height=25% width=25%>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+</table>
+</ol>
+<br>
+Caption<br>
+The table needs a caption to explain the contents.<bR>
+It is immediately put after the table tag or between the table.<br>
+&lt;caption align="top/bottom"&gt;name of caption &lt;caption&gt;<br>
+<br>
+Thead<br>
+It defines a set of table header rows.<br>
+It will appear only once per table at the beginning just after the &lt;table&gt; tag.<br>
+It uses &lt;th&gt; tag  which boldfaces the text.<br>
+<br>
+Tfoot<br>
+It defines a footer in the table.<br>
+It will appear only once per table at the end.<br>
+<br>
+Tbody<br>
+It collects one or more rows into a group within table.<br>
+There can be more than one &lt;tbody&gt; tag in the table.<br>
+<br>
+Basic overview-<br>
+<table>
+<thead>
+<th>Start<th>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+</tr>
+</tbody>
+<tfoot>
+<td>End</td>
+</tfoot>
+</table>
+<br>
+By-<br>
+&lt;table&gt;<br>
+&lt;thead&gt;<br>
+&lt;th&gt;Start&lt;/th&gt;<br>
+&lt;tbody&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;1&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;2&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tfoot&gt;<br>
+&lt;td&gt;End&lt;/td&gt;<br>
+&lt;/tfoot&gt;<br>
+&lt;/table&gt;<br>
+<div class="container">
+<button id="click">Bye Bye</button>
+</div>
+<a name="last"></a>
+<body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color:lightcoral;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 250px;
+    margin: -140px 0 0 -182px;
+    padding: 40px;
+}
+
+h3{
+    margin: 0 0 20px;
+    line-height: 1;
+    color: #44c4e7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    background: #44c4e7;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input{
+    width: 86%;
+    padding: 10px 15px;
+    border: 1;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
